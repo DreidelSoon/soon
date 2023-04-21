@@ -1,0 +1,532 @@
+/*
+-BetterInvites Imports-
+by maenDisease
+Discord UserID: 678469587444170762
+*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/BIRBanners.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://dreidelman.github.io/external-files/iconChange.css");
+@import url("https://dreidelman.github.io/soon/main/soon.css");
+@import url("https://dreidelman.github.io/soon/main/extra/palette.css");
+@import url("https://dreidelman.github.io/soon/main/extra/fonts.css");
+@import url("https://dreidelman.github.io/soon/main/extra/snippets.css");
+
+/* 
+-Icon Change-
+By Obscure
+Discord UserID: 755436063828213821
+*/
+:root {
+  /* Chat Bubble */
+  --chat-bubble: 1;
+
+  --chat-bubble-background-color: var(--background-secondary);
+  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-code-background-color: var(--background-secondary-alt);
+
+  --chat-bubble-max-width: 90%;
+  --chat-bubble-border-radius: 8px;
+
+  --chat-bubble-box-shadow-h-offset: 0;
+  --chat-bubble-box-shadow-v-offset: 4px;
+  --chat-bubble-box-shadow-blur: 4px;
+  
+  --chat-bubble-box-shadow-color-h: 0;
+  --chat-bubble-box-shadow-color-s: 0%;
+  --chat-bubble-box-shadow-color-l: 0%;
+  --chat-bubble-box-shadow-color-a: 0.16;
+}
+
+/* 
+-Pin Home Icon-
+By Doggybootsy
+Discord UserID: 515780151791976453
+*/
+
+/* pin home */
+.guilds-2JjMmN .tree-3agP2X:focus {
+    outline-color: transparent;
+  }
+  .guilds-2JjMmN .scroller-3X7KbA {
+    contain: unset;
+    margin-top: 53px;
+  }
+  .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
+    position: fixed;
+    transform: translatey( -115% );
+    background-color:#171717;
+    border-top-right-radius:10px;
+  }
+  .tutorialContainer-1pL9QS.listItem-3SmSlK.wrapper-3kah-n[data-list-item-id="guildsnav___home"] {
+    margin-top:25px!important;
+  }
+  .guildSeparator-a4uisj {
+    display:none;
+  }
+  .unreadMentionsIndicatorTop-2bTgUU {
+    margin-top:50px;
+  }
+
+/* 
+-Better Invites-
+By Disease
+Discord UserID: 678469587444170762
+*/
+
+
+/*betterInvites*/
+/*background*/
+.wrapper-1HIH0j {
+  background: var(--background-secondary-alt);
+  border-radius: 8px;
+  padding: 16px;
+  overflow: hidden;
+  min-height: 173px;
+  max-width: 328px;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
+}
+
+.wrapper-1HIH0j:focus,
+.wrapper-1HIH0j:hover {
+  background: var(--background-tertiary);
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+  box-shadow: var(--elevation-high);
+  -webkit-box-shadow: var(--elevation-high)
+}
+
+.wrapper-1HIH0j .content-1r-J1r {
+  position: relative;
+  min-height: 113px;
+  z-index: 1
+}
+
+.wrapper-1HIH0j .header-3anOjb {
+  position: relative;
+  z-index: 2
+}
+
+.wrapper-1HIH0j .inviteSplash-2nkLRX {
+  position: absolute;
+  border-radius: 8px 8px 0 0;
+  height: 87px;
+  transition: transform .2s ease-out, -webkit-transform .2s ease-out
+}
+
+.wrapper-1HIH0j .inviteSplashImage-3f6SDQ {
+  transition: transform .2s ease-out, -webkit-transform .2s ease-out
+}
+
+.wrapper-1HIH0j:hover .inviteSplashImage-3f6SDQ {
+  transform: scale(1.01) translateZ(0) !important;
+  -webkit-transform: scale(1.01) translateZ(0) !important
+}
+
+.BetterInvites-guildBanner {
+  max-height: 87px;
+  margin: -87px 0;
+  top: 43px;
+  right: 16px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0 !important;
+  width: 328px
+}
+
+.BetterInvites-guildBanner img {
+  max-height: 87px !important;
+  border-radius: 8px 8px 0 0 !important;
+  -webkit-transition: transform .2s ease-out;
+  transition: transform .2s ease-out
+}
+
+.wrapper-1HIH0j:hover .BetterInvites-guildBanner img {
+  transform: scale(101%)
+}
+
+.guildIcon-3ZfRfI {
+  position: absolute;
+  top: 17px;
+  box-shadow: 0 0 0 4px var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt);
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  -webkit-transition: box-shadow .2s ease-out, background .2s ease-out;
+  transition: box-shadow .2s ease-out, background .2s ease-out
+}
+
+.wrapper-1HIH0j:hover .guildIcon-3ZfRfI {
+  box-shadow: 0 0 0 4px var(--background-tertiary)
+}
+
+.wrapper-1HIH0j .guildInfo-UCKhrV {
+  justify-content: initial;
+  transform: translate(0, 35px);
+  width: 0
+}
+
+.wrapper-1HIH0j .statusCounts-3GLDH6 {
+  font-weight: 400;
+  font-size: 12px
+}
+
+.wrapper-1HIH0j .statusOffline-2R-ArP {
+  background-color: var(--interactive-normal)
+}
+
+.wrapper-1HIH0j .BetterInvites-iconWrapper img {
+  width: 18px;
+  height: 18px !important
+}
+
+.wrapper-1HIH0j .BetterInvites-iconWrapper {
+  position: relative;
+  top: 50px;
+  height: 18px
+}
+
+.BetterInvites-guildDescription {
+  width: 400px
+}
+
+.BetterInvites-guildDescription .markup-eYLPri {
+  margin: 76px 0 0 0 !important;
+  color: var(--header-secondary);
+  font-size: 14px;
+  line-height: 18px;
+  position: relative
+}
+
+.wrapper-1HIH0j .button-2b4VEQ {
+  position: absolute;
+  right: 0;
+  top: 17px;
+  width: unset !important;
+  height: 32px;
+  font-weight: 600;
+  color: var(--interactive-normal);
+  background-color: var(--background-primary) !important;
+  -webkit-box-shadow: var(--elevation-stroke);
+  box-shadow: var(--elevation-stroke);
+  border-radius: 4px;
+  opacity: 0
+}
+
+.wrapper-1HIH0j:hover .button-2b4VEQ {
+  opacity: 1
+}
+
+.wrapper-1HIH0j .button-2b4VEQ:hover {
+  color: var(--interactive-hover);
+  filter: brightness(105%)
+}
+
+.wrapper-1HIH0j .buttonSize-3QlBTl .contents-3ca1mk {
+  position: relative;
+  text-overflow: unset;
+  overflow: visible
+}
+
+.guildIcon-3ZfRfI::after {
+  display: block;
+  position: relative;
+  content: "";
+  z-index: -1;
+  bottom: calc(87px - 26px);
+  right: 16px;
+  width: 328px;
+  height: 87px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% !important;
+  -webkit-transition: background-size .2s ease;
+  transition: background-size .2s ease-out
+}
+
+.wrapper-1HIH0j:hover .guildIcon-3ZfRfI::after {
+  background-size: 101% !important
+}
+
+/* full height banner */
+/* 
+.guildIcon-3ZfRfI::after,.wrapper-1HIH0j .inviteSplash-2nkLRX{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
+.guildIcon-3ZfRfI::after,.wrapper-1HIH0j:hover .guildIcon-3ZfRfI::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
+.wrapper-1HIH0j:hover .guildIcon-3ZfRfI::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
+.guildIcon-3ZfRfI,.wrapper-1HIH0j:hover .guildIcon-3ZfRfI{box-shadow:none}
+*/
+
+/* 
+-Connection Issues Let Me Be-
+By Disease
+Discord UserID: 678469587444170762
+*/
+
+.container-2RRFHK {
+    background: transparent;
+    pointer-events: none;
+}
+.container-2RRFHK .anchor-1MIwyf { pointer-events: auto; }
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+    display:none;
+}
+.container-2RRFHK .ready-3BZNWT {
+    position: absolute;
+    bottom: 44px;
+    right: 244px;
+    z-index: 1;
+}
+
+.container-2RRFHK img, .container-2RRFHK video {
+    width: 32px;
+    height: 32px;
+}
+.container-2RRFHK .problems-CvGwpb {
+    padding: 8px 16px;
+    bottom: 18px;
+    left: unset;
+    right: 18px;
+    width:fit-content;
+    height:fit-content;
+    background-color: var(--background-floating);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+    box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+/* 
+-Message Bubbles-
+By Disease
+Discord UserID: 678469587444170762
+
+Credits
+TheCommieAxolotl - Base code
+Debuggerz1 - Math
+ */
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg,
+.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    background-size: calc(var(--chat-bubble) * 1px);
+    max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
+    width: fit-content;
+    margin: 0;
+    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
+    border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
+}
+
+.cozyMessage-1DWF9U.automodMessage-265YwJ:before,
+.cozyMessage-1DWF9U.ephemeral-2nDdnn:before,
+.cozyMessage-1DWF9U.mentioned-Tre-dv:before,
+.cozyMessage-1DWF9U.replying-eZ7p5z:before {
+    width: calc(2px - (var(--chat-bubble) * 2px));
+}
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.mentioned-Tre-dv .contents-2MsGLg,
+.cozyMessage-1DWF9U.mentioned-Tre-dv:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
+}
+
+.cozyMessage-1DWF9U.mentioned-Tre-dv {
+    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.replying-eZ7p5z .contents-2MsGLg,
+.cozyMessage-1DWF9U.replying-eZ7p5z:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *),
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.ephemeral-2nDdnn .contents-2MsGLg,
+.cozyMessage-1DWF9U.ephemeral-2nDdnn:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
+}
+
+.cozyMessage-1DWF9U.replying-eZ7p5z,
+.cozyMessage-1DWF9U.ephemeral-2nDdnn {
+    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ .contents-2MsGLg,
+.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1) .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+}
+
+.cozyMessage-1DWF9U.automodMessage-265YwJ {
+    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U.automodMessage-265YwJ:hover .contents-2MsGLg,
+.cozyMessage-1DWF9U.automodMessage-265YwJ:not(.groupStart-3Mlgv1):hover .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+}
+
+.cozyMessage-1DWF9U.automodMessage-265YwJ:hover {
+    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg .markup-eYLPri code,
+.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) code {
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
+    background-color: var(--background-secondary);
+    background-size: calc(var(--chat-bubble) * 1px);
+}
+
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+    max-width: 100%;
+}
+
+/* 
+-Bearable Inbox-
+By Disease
+Discord UserID: 678469587444170762
+*/
+
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz {
+    padding-right: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
+    padding: 16px;
+}
+
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    margin: 16px 8px 16px 0;
+    padding-bottom: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+    background-color: var(--background-primary);
+    height: fit-content;
+    padding: 6px 16px;
+    border-bottom: thin solid var(--background-modifier-accent);
+}
+
+.recentMentionsPopout-2bI1ZN .messageContainer-3VTXBC,
+.recentMentionsPopout-2bI1ZN .messages-23can0 {
+    margin-left: unset;
+    background: none;
+    border-radius: unset;
+}
+
+/* header icon */
+.recentMentionsPopout-2bI1ZN .iconSizeMedium-2vzSua {
+    width: 24px;
+    height: 24px;
+}
+
+.recentMentionsPopout-2bI1ZN .iconActiveMedium-27_R5B {
+    border-radius: 7px;
+}
+
+.recentMentionsPopout-2bI1ZN .dmIcon-1ZeAqq,
+.recentMentionsPopout-2bI1ZN .guildIcon-IklRcj {
+    margin-right: 6px;
+}
+
+/* channel name section */
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg path {
+    fill: var(--channel-icon);
+}
+
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg {
+    margin: 0 4px;
+}
+
+.recentMentionsPopout-2bI1ZN .channelNameSection-3OgeRa {
+    -webkit-box-orient: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .heading-md-medium-2DVCeJ,
+.recentMentionsPopout-2bI1ZN .heading-md-normal-3Ytn6I {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.recentMentionsPopout-2bI1ZN .subtext-2-lYzF,
+.recentMentionsPopout-2bI1ZN .subtextContainer-1jbEbB {
+    margin-left: 4px;
+    line-height: 20px;
+    width: fit-content;
+}
+
+/* buttons */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz .closeButton-3CiW2j {
+    opacity: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz:hover .closeButton-3CiW2j {
+    opacity: 1;
+}
+
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:not(.disabled-184-il),
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:hover:not(.disabled-184-il) {
+    background: none;
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc:hover {
+    color: var(--interactive-active);
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: unset;
+    width: 32px;
+    height: 32px;
+    padding: unset;
+    margin-left: 12px;
+}
+
+.recentMentionsPopout-2bI1ZN .messages-23can0>button:last-of-type {
+    margin-left:auto;
+}
+
+
+
+/* 
+-Bigger Titlebar-
+By ElitePrime#7266
+Discord UserID: 542750206299734039
+*/
+.winButton-3UMjdg {
+  height: 25px;
+  width: 34px;
+  margin-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.withFrame-2dL45i {
+  height: fit-content;
+  margin-top: 0px;
+}
+.wordmarkWindows-2dq6rw {
+  margin-top: 10px;
+  margin-left: 12px;
+  padding: 0px;
+}

@@ -1,0 +1,111 @@
+@import url("https://dreidelman.github.io/external-files/iconChange.css");
+@import url("https://dreidelman.github.io/soon/main/soon.css");
+@import url("https://dreidelman.github.io/soon/main/extra/palette.css");
+@import url("https://dreidelman.github.io/soon/main/extra/fonts.css");
+@import url("https://dreidelman.github.io/soon/main/extra/snippets.css");
+/*
+by blueb442 (Modified Purpura Palette)
+*/
+:root, .theme-light, .theme-dark {
+--scroller-color: rgb(186,85,211,0.075);
+--header-primary: #fff!important;
+--header-secondary: #b9bbbe!important;
+--text-normal: #dcddde!important;
+--text-muted: #72767d!important;
+--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%)!important;
+--text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%)!important;
+--text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)!important;
+--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%)!important;
+--interactive-normal: #b9bbbe!important;
+--interactive-hover: #dcddde!important;
+--interactive-active: #fff!important;
+--interactive-muted: #4f545c!important;
+--background-primary: #15131a!important;
+--background-secondary: #121016!important;
+--background-secondary-alt: #0e0c11!important;
+--background-tertiary: #08070a!important;
+--background-accent: #24212c!important;
+--background-floating: #1b171b81!important;
+--background-mobile-primary: #08070a!important;
+--background-mobile-secondary: #08070a!important;
+--background-modifier-hover: #31323942!important;
+--background-modifier-active: #2b29339a!important;
+--background-modifier-selected: #2b29336e!important;
+--background-modifier-accent: hsla(0,0%,100%,0.06)!important;
+--info-positive-text: #fff!important;
+--info-warning-text: #fff!important;
+--info-danger-text: #fff!important;
+--info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1)!important;
+--info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%)!important;
+--info-help-text: #fff!important;
+--status-warning-text: #000!important;
+--scrollbar-thin-thumb: #202225!important;
+--scrollbar-thin-track: transparent!important;
+--scrollbar-auto-thumb: #202225!important;
+--scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%)!important;
+--scrollbar-auto-scrollbar-color-thumb: #202225!important;
+--scrollbar-auto-scrollbar-color-track: #15131a!important;
+--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15)!important;
+--elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05)!important;
+--elevation-medium: 0 4px 4px rgba(0,0,0,0.16)!important;
+--elevation-high: 0 8px 16px rgba(0,0,0,0.24)!important;
+--logo-primary: rgb(194, 194, 194)!important;
+--control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%)!important;
+--control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%)!important;
+--background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1)!important;
+--background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08)!important;
+--background-message-hover: rgba(4,4,5,0.07)!important;
+--channels-default: #918e97!important;
+--guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4)!important;
+--activity-card-background: #202225!important;
+--textbox-markdown-syntax: #8e9297!important;
+--deprecated-card-bg: rgba(32,34,37,0.6)!important;
+--deprecated-card-editable-bg: rgba(32,34,37,0.3)!important;
+--deprecated-store-bg: #36393f!important;
+--deprecated-quickswitcher-input-background: #72767d!important;
+--deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3)!important;
+--deprecated-text-input-bg: rgba(0,0,0,0.1)!important;
+--deprecated-text-input-border: rgba(0,0,0,0.3)!important;
+--deprecated-text-input-border-hover: #040405!important;
+--deprecated-text-input-border-disabled: #202225!important;
+--deprecated-text-input-prefix: #dcddde!important;
+--toolbar-bg: #201d298a!important; /* 1st Titlebar Background Color */
+--serverlist-btn: #211e29!important; /* Add Server/Explore Buttons Background Color */
+--autocomplete-bg:#211e29!important; /* Autocomplete (emoji/sticker) Menu Background Color */
+--closed-folder-bg:#221f29!important; /* Closed Folder Background Color */
+--server-bg:#24212cb0!important; /* Server Background Color */
+--blurple: #5865f2!important; /* Extra Button Colors */
+
+/* Messagebox */
+--messagebox-align: none; /* Align the Placeholder to the Center | none = default | center = align to center */
+--messagebox-bg:#1f1c25!important;
+--messagebox-text:white!important;
+--messagebox-hover-text:gray!important;
+
+/* User Popouts  */
+--user-popout-bg:#221f29!important; /* Background color for both popouts */
+--connected-accounts-bg:#15131aa8!important; /* Background color for Connected Accounts */
+--user-banner-blur:brightness(.6) blur(3px)!important;
+
+/* Add Server Button [+] */
+--dark-background: #19161f!important;
+--dark-background-secondary: #121016!important;
+--dark-background-tertiary: #202225!important;
+--dark-modifier-hover: #221f22!important;
+--dark-modifier-selected: rgba(79, 84, 92, 0.6)!important;
+--dark-header: #fff!important;
+--dark-header-secondary: #b9bbbe!important;
+--dark-text: #dcddde!important;
+--dark-link: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%)!important;
+
+/* Tab Bars */
+--itemtab-default: #00000063;
+--itemtab-selected: #000000bd;
+}
+
+.inputForm-3RoxXV .inputDefault-Ciwd-S, .container-1Lk8p7 .inputDefault-Ciwd-S {
+    background-color: var(--background-tertiary);
+}
+.container-1Lk8p7 .contents-3NembX {
+    color:white;
+}
