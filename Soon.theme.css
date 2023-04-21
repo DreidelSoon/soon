@@ -4,7 +4,7 @@
  * @version 1.1.2
  * @description A smooth, modifiable theme for simple-minded people
  * @website https://satana.design
- * @source https://github.com/SatanaDesigns/soon
+ * @source https://github.com/DreidelSoon/soon
  * @invite yr2JpTyW5d
  */ 
 
@@ -26,14 +26,14 @@ Do NOT modify this file if you dont know what youre doing.
  * Main Source File 
  * DON'T REMOVE!
 */
-@import url("https://satanadesigns.github.io/soon/main/soon.css");
-@import url("https://satanadesigns.github.io/soon/main/extra/palette.css");
+@import url("https://DreidelSoon.github.io/soon/main/soon.css");
+@import url("https://DreidelSoon.github.io/soon/main/extra/palette.css");
 
 
 /**
  * Delete this @import if you want the regular discord icons (Docs coming soon (maybe))
 */
-@import url("https://satanadesigns.github.io/external-files/iconChange.css");
+@import url("https://DreidelSoon.github.io/external-files/iconChange.css");
 
 
 /** 
